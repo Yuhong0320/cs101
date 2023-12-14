@@ -1,11 +1,11 @@
 int main() {
     int i = 8;
     if (i &(i-1)){
-        printf("true");
+        printf("false");
         
     }
     else{
-        printf("fulse");
+        printf("true");
     }
     return 0;
 }
